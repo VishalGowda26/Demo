@@ -1,0 +1,24 @@
+Git is a Version Controlling System used to track the changes made within an Application
+
+GitHub :- It is a Cloud Platform that follows Git principles for version Controlling, helps in storing the projects
+
+GitBash :- It is a Command Line Interface(CLI) use to track changes and sync it to the global repository
+
+STEPS TO CREATE GITBASH
+1) Initialazing the Git Local Repository -----> git init <> used to initalize the Git Local Repository.
+2) Stagging the Changes -----> git add file path <>The Process of selecting the changes that has to be commited is called as staging
+3) Commit Stages Changes ------> git commit -m "message" <>The Process of Finalizing and Saving the changes to the local Repository is called as Commiting
+	add remote origin url <>
+4) Create a Branch -----> git checkout -b main <>
+5) Push to Global Repository -----> git push origin main <>
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+1. git init
+2. git remote add origin path
+3. git add filename/path
+4. git commit -m "message"
+5. git checkout -b branchname (to create new branch)
+6. git checkout branchname
+7. git push origin branchname
